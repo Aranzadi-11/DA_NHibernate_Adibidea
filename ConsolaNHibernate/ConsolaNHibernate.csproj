@@ -114,6 +114,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfazea\Menua.cs" />
+    <Compile Include="Kontroler\CRUD.cs" />
     <Compile Include="Mapeoak\UsuarioMap.cs" />
     <Compile Include="Modeloak\Usuario.cs" />
     <Compile Include="NHibernateHelper.cs" />
@@ -124,5 +126,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
